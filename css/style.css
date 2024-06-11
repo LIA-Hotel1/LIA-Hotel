@@ -801,6 +801,25 @@ button {
 
 /** end blog section **/
 
+/* Responsive Design */
+@media screen and (max-width: 992px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .titlepage p {
+        font-size: 18px;
+    }
+}
+
 
 /** contact section **/
 
